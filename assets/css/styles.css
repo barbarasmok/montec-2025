@@ -727,7 +727,7 @@ HERO
   background-image: url('/montec/assets/imgs/proyectos-hero.webp');
 }
 .hero-mercados {
-  background-image: url('/montec/assets/imgs/mercados-hero.webp');
+  background-image: url('/montec/assets/imgs/mercados-hero-2.webp');
 }
 .hero-about {
   background-image: url('/montec/assets/imgs/about-hero.webp');
@@ -739,10 +739,10 @@ HERO
   height: 60vh;
 }
 .hero-denuncias {
-  background-image: url('/montec/assets/imgs/denuncias-hero.webp');
+  background-image: url('/montec/assets/imgs/denuncias-hero-2.webp');
 }
 .hero-contacto {
-  background-image: url('/montec/assets/imgs/contacto-hero.webp');
+  background-image: url('/montec/assets/imgs/contacto-hero-2.webp');
 }
 @media (max-width: 1024px) {
   .secondary-hero {
