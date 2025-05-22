@@ -984,13 +984,11 @@ HOME INTRO BLOCK
 @media (min-width: 1140px) {
   .intro-section {
     height: fit-content;
-    margin-top: 5rem;
   }
 }
 @media (min-width: 1200px) {
   .intro-section {
     height: fit-content;
-    margin-top: 5rem;
   }
 }
 @media (min-width: 1440px) {
@@ -1002,20 +1000,17 @@ HOME INTRO BLOCK
 @media (min-width: 1600px) {
   .intro-section {
     height: fit-content;
-    margin-top: 5rem;
   }
 }
 @media (min-width: 1920px) {
   .intro-section {
     height: fit-content;
-    margin-top: 5rem;
   }
 }
 
 @media (min-width: 2000px) {
   .intro-section {
     height: fit-content;
-    margin-top: 5rem;
   }
 }
 
