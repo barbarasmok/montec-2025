@@ -721,16 +721,16 @@ HERO
 
 /* Specific Hero Classes */
 .hero-servicios {
-  background-image: url('/montec/assets/imgs/servicios-hero.webp');
+  background-image: url('/montec-2025/assets/imgs/servicios-hero.webp');
 }
 .hero-proyectos {
-  background-image: url('/montec/assets/imgs/proyectos-hero.webp');
+  background-image: url('/montec-2025/assets/imgs/proyectos-hero.webp');
 }
 .hero-mercados {
-  background-image: url('/montec/assets/imgs/mercados-hero-2.webp');
+  background-image: url('/montec-2025/assets/imgs/mercados-hero-2.webp');
 }
 .hero-about {
-  background-image: url('/montec/assets/imgs/about-hero.webp');
+  background-image: url('/montec-2025/assets/imgs/about-hero.webp');
 }
 
 /* Secondary Page Hero */
@@ -739,10 +739,10 @@ HERO
   height: 60vh;
 }
 .hero-denuncias {
-  background-image: url('/montec/assets/imgs/denuncias-hero-2.webp');
+  background-image: url('/montec-2025/assets/imgs/denuncias-hero-2.webp');
 }
 .hero-contacto {
-  background-image: url('/montec/assets/imgs/contacto-hero-2.webp');
+  background-image: url('/montec-2025/assets/imgs/contacto-hero-2.webp');
 }
 @media (max-width: 1024px) {
   .secondary-hero {
@@ -965,7 +965,7 @@ HOME INTRO BLOCK
 /* Intro */
 .intro-section {
   background-color: var(--background-color);
-  background-image: url('/montec/assets/imgs/home-intro-texture.svg');
+  background-image: url('/montec-2025/assets/imgs/home-intro-texture.svg');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top right;
@@ -2655,7 +2655,7 @@ MAPA BLOCK
 ========================================================================== */
 .mapa-section {
   background-color: var(--background-color);
-  background-image: url('/montec/assets/imgs/mapa-texture.svg');
+  background-image: url('/montec-2025/assets/imgs/mapa-texture.svg');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -3073,7 +3073,7 @@ CTA BLOCK
 ========================================================================== */
 .cta-section {
   background-color: var(--primary-color);
-  background-image: url('/montec/assets/imgs/home-cta-texture.svg');
+  background-image: url('/montec-2025/assets/imgs/home-cta-texture.svg');
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: top right;
