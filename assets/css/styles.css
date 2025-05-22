@@ -676,7 +676,7 @@ HERO
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-  .hero-section .btn-block {
+  .hero-section .btn-primary-hero {
     min-width: 28%;
   }
   .text-container-video-hero {
@@ -690,17 +690,17 @@ HERO
   }
 }
 @media (min-width: 993px) {
-  .hero-section .btn-block {
+  .hero-section .btn-primary-hero {
     min-width: 25%;
   }
 }
 @media (min-width: 100px) {
-  .hero-section .btn-block {
+  .hero-section .btn-primary-hero {
     min-width: 28%;
   }
 }
 @media (min-width: 1440px) {
-  .hero-section .btn-block {
+  .hero-section .btn-primary-hero {
     min-width: 18%;
   }
 }
