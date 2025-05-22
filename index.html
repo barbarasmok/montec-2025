@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Montec - Inicio</title>
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+        <!--Favicon-->
+        <link
+        rel="icon"
+        href="assets/imgs/favicon/favicon-48.svg"
+        type="image/svg+xml"
+      />
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!--Awesome Fonts-->
+    <script src="https://kit.fontawesome.com/f8c7a943f3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/imgs/montec-logo.svg"
+            alt="Montec Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mercados.html">Mercados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="denuncias.html">Denuncias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- HERO - Homepage with Video -->
+  <section id="hero-section" class="hero-section video-hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/videos/montec-mute.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <div class="container">
+      <div class="text-container text-container-video-hero">
+        <h1 class="hero-subtitle">
+          Calidad e Innovación: Soluciones integrales en construcción
+        </h1>
+        
+        <!-- Botón -->
+        <div class="btn-block">
+          <a href="contacto.html" class="btn-primary">
+            Contáctanos
+            <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow Icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- INTRO -->
+    <section id="intro-section" class="intro-section">
+      <div class="container position-relative">
+        <div class="row g-5">
+          <!-- Left Column: Text -->
+          <div class="col-lg-6 mb-md-5">
+            <h2 class="mb-2 tagline">Nuestra Empresa</h2>
+            <h2 class="mb-4">
+              Liderando en soluciones Innovadoras y comprometidas con el medio
+              ambiente.
+            </h2>
+            <p class="pe-md-5 pe-1">
+              Más de 30 años liderando proyectos en obras industriales,
+              sanitarias y civiles. Nuestro compromiso con
+              <b
+                >la calidad, la innovación, la sostenibilidad y la seguridad,</b
+              >
+              nos posiciona como un socio confiable para los desafíos más
+              exigentes de la industria.
+            </p>
+          </div>
+          <!-- Right Column: Image with Counter -->
+          <div class="col-lg-6 d-flex flex-wrap counter-section">
+            <!-- First Image with Counter -->
+            <div class="col-6 position-relative p-2">
+              <img
+                src="assets/imgs/home-intro-2-b.webp"
+                class="img-fluid rounded-lg counter-img-l"
+                alt="Achievement"
+              />
+              <div class="counter-box counter-box-left">
+                <h2 id="counter1">0</h2>
+                <p>Años de experiencia</p>
+              </div>
+            </div>
+            <!-- Second Image with Counter -->
+            <div class="col-6 position-relative p-2">
+              <img
+                src="assets/imgs/home-intro-1-b.webp"
+                class="img-fluid rounded-lg counter-img-r"
+                alt="Achievement"
+              />
+              <div class="counter-box counter-box-right">
+                <h2 id="counter2">0</h2>
+                <p>Equipos y maquinarias de última generación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos-section" class="proyectos-section">
+      <div class="container position-relative">
+        <!-- Title Block -->
+        <div class="title-block-media g-5 g-md-2">
+          <!-- Left Column: Text -->
+          <div class="title-block pb-3 pb-md-0">
+            <h2 class="tagline">Nuestro Trabajo</h2>
+            <h2>Proyectos Destacados</h2>
+          </div>
+          <!-- Right Column: Button -->
+          <div class="btn-block">
+            <a href="proyectos.html" class="btn-primary">
+              Ver Proyectos
+              <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow Icon" />
+            </a>
+          </div>
+        </div>
+        <!-- Cards Container -->
+        <div class="card-container mt-5">
+          <div class="card">
+            <a href="proyectos.html#proyecto-1">
+              <div class="card-img">
+                <img src="assets/imgs/card-1.webp" alt="Project 1" />
+                <div class="card-icon">
+                  <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow" />
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="proyectos.html#proyecto-1">Sistema Agua Pampa Puno, Reservorio y Refuerzo San Pedro</a>
+                </h3>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="proyectos.html#proyecto-2">
+              <div class="card-img">
+                <img src="assets/imgs/card-2.webp" alt="Project 2" />
+                <div class="card-icon">
+                  <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow" />
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="proyectos.html#proyecto-2">Marine Works</a>
+                </h3>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="proyectos.html#proyecto-1">
+              <div class="card-img">
+                <img src="assets/imgs/card-3.webp" alt="Project 3" />
+                <div class="card-icon">
+                  <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow" />
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="proyectos.html#proyecto-3">EPC diseño, ingeniería y suministro</a>
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER BLOCK -->
+    <section id="img-banner">
+      <img class="img-banner" src="assets/imgs/valores-banner.webp" alt="Valores Banner" />
+    </section>
+
+     <!-- VALORES BLOCK -->
+    <section class="valores-section" id="valores-section">
+      <div class="container position-relative">
+        <!-- Title Block -->
+        <div class="title-block-media g-5 g-md-2 align-items-start">
+          <!-- Left Column: Text -->
+          <div class="title-block pb-3 pb-md-0 pt-md-5">
+            <h2 class="tagline">Nuestros Valores</h2>
+            <h2 class="mb-4">Política de Protección de los Recursos:</h2>
+            <p>
+              Nuestros programas establecen
+              <b
+                >acciones sistemáticas y permanentes de Prevención de
+                Riesgos,</b
+              >
+              profesionales orientados a proteger la salud y la seguridad de sus
+              miembros con el compromiso de resguardar el medio ambiente como un
+              aporte a la comunidad. Nuestras certificaciones y reconocimientos
+              demuestran nuestra preocupación para cumplir con esto en cada
+              proyecto.
+            </p>
+          </div>
+          <!-- Right Column: Box -->
+          <div class="box-block">
+            <h3>
+              Seguridad, calidad, productividad y protección del medio ambiente.
+            </h3>
+          </div>
+        </div>
+        <!-- List Block -->
+        <div class="list-block">
+          <div class="row gap-cols">
+            <!-- Left Column: List Items -->
+            <div class="col-lg-5 list-col">
+                <div class="list-item">
+                    <div class="item-icon">
+                        <img src="assets/imgs/icons/check-icon.svg" alt="Check">
+                    </div>
+                    <div class="item-content">
+                        <h4>Gestión Eficiente del Agua</h4>
+                        <p>Montec utiliza plantas desalinizadoras y sistemas de impulsión para garantizar el suministro hídrico en la minería sin afectar fuentes locales.</p>
+                    </div>
+                </div>
+                <div class="list-item mt-3">
+                    <div class="item-icon">
+                        <img src="assets/imgs/icons/check-icon.svg" alt="Check">
+                    </div>
+                    <div class="item-content">
+                        <h4>Reducción de Impacto Ambiental</h4>
+                        <p>Emplea emisarios submarinos y plantas de tratamiento para asegurar que los efluentes sean amigables con el medio ambiente.</p>
+                    </div>
+                </div>
+                <div class="list-item no-border mt-3">
+                    <div class="item-icon">
+                        <img src="assets/imgs/icons/check-icon.svg" alt="Check">
+                    </div>
+                    <div class="item-content">
+                        <h4>Uso de Energías Limpias</h4>
+                        <p>Implementa tecnologías sostenibles que reducen la huella de carbono en las operaciones mineras.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column: Quote -->
+            <div class="col-lg-7 quote-col">
+              <blockquote>
+                  “MONTEC S.A. consciente del compromiso que contrae con sus clientes, que confían en sus servicios de construcción y montajes, ha definido la <b>calidad como el factor clave para el desarrollo técnico y permanencia en el tiempo de la empresa.</b> La gerencia adquiere el compromiso de orientar todos sus esfuerzos en esta línea, con la total convicción de que es la única forma de permanecer en el mercado donde nuestro servicio está presente.”
+              </blockquote>
+              <p class="quote-author">Manuel Sarasúa N.</p>
+            <p class="quote-job">Gerente General</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CLIENTS BLOCK -->
+    <section id="clients-section" class="clients-section">
+      <div class="container position-relative">
+        <!-- Title Block -->
+        <div class="title-block-media-full g-5 g-md-2">
+          <!-- Left Column: Text -->
+          <div class="title-block-full pb-3 pb-md-0 mt-3 mt-lg-0">
+            <h2 class="tagline">Nuestros Clientes</h2>
+            <h2 class="mb-4">Empresas que confían en nosotros</h2>
+          </div>
+        </div>
+       
+        <div class="logo-wrapper">
+          <!-- Loop through 21 logos -->
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-1.webp" alt="Logo 1" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-2.webp" alt="Logo 2" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-3.webp" alt="Logo 3" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-4.webp" alt="Logo 4" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-5.png" alt="Logo 5" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-6.webp" alt="Logo 6" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-7.webp" alt="Logo 7" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-8.webp" alt="Logo 8" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-9.webp" alt="Logo 9" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-10.png" alt="Logo 10" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-11.png" alt="Logo 11" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-12.webp" alt="Logo 12" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-13.webp" alt="Logo 13" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-14.png" alt="Logo 14" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-15.png" alt="Logo 15" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-16.webp" alt="Logo 16" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-17.webp" alt="Logo 17" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-18.webp" alt="Logo 18" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-19.webp" alt="Logo 19" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-20.webp" alt="Logo 20" class="logo-img">
+          </div>
+          <div class="logo-item">
+              <img src="assets/imgs/logos/logo-21.webp" alt="Logo 21" class="logo-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta-section" class="cta-section">
+      <div class="container position-relative">
+        <!-- Title Block -->
+        <div class="title-block-media title-block-media-cta gap-cols">
+          <!-- Left Column: Text -->
+          <div class="title-block pb-3 pb-md-0">
+            <h2 class="mb-4">Impulsemos tu proyecto</h2>
+            <p>Nuestro equipo de expertos está aquí para ayudarte. Contáctanos y deja en manos de Montec <b>la responsabilidad para que tu proyecto sea un éxito.</b></p>
+          </div>
+          <!-- Right Column: Button -->
+          <div class="btn-block">
+            <a href="contacto.html" class="btn-secondary">
+              Contáctanos
+              <img src="assets/imgs/icons/arrow-right.svg" alt="Arrow Icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <!-- First Row -->
+        <div class="footer-top">
+          <!-- First Row - Col 1-->
+          <div class="footer-logo">
+            <a href="/index.html"><img src="assets/imgs/montec-logo.svg" alt="Montec Logo" class="img-fluid" /></a>
+          </div>
+          <!-- First Row - Col 2-->
+          <div class="footer-site">
+            <h3 class="tagline mb-3">Sitio</h3>
+            <div class="footer-site-links">
+              <div class="footer-link">
+                <a href="index.html">Inicio</a><br />
+                <a href="about.html">Nosotros</a><br />
+                <a href="servicios.html">Servicios</a><br />
+                <a href="proyectos.html">Proyectos</a>
+              </div>
+              <div class="footer-link">
+                <a href="mercados.html">Mercados</a><br />
+                <a href="denuncias.html">Denuncias</a><br />
+                <a href="contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
+          <!-- First Row - Col 3-->
+          <div class="footer-social">
+            <h3 class="tagline mb-3">Síguenos</h3>
+            <div class="footer-social-icons">
+              <a href="https://www.linkedin.com/company/montec-s-a-/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.youtube.com/@montecmontajesindustriales579/videos" target="_blank" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          <!-- First Row - Col 4-->
+          <div class="footer-corporate">
+            <h3 class="tagline mb-3">Corporativo</h3>
+            <div class="footer-corporate-link">
+              <i class="fa-solid fa-user"></i>
+              <a href="https://webmail.tuempresa.cl" target="_blank">Email Login</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Second Row -->
+        <div class="footer-middle">
+          <!-- Second Row - Col 1-->
+          <div class="footer-corporate">
+            <h3 class="tagline mb-3">Email</h3>
+            <div class="footer-corporate-link">
+              <i class="fa-solid fa-envelope"></i> 
+              <a href="mailto:contacto@montec.cl" target="_blank">contacto@montec.cl</a>
+            </div>
+          </div>
+          <!-- Second Row - Col 2-->
+          <div class="footer-corporate">
+            <h3 class="tagline mb-3">Corporativo</h3>
+            <div class="footer-corporate-link">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:++56227130300" target="_blank">+56 2 2713 0300</a>
+            </div>
+          </div>
+          <!-- Second Row - Col 3-->
+          <div class="footer-col">
+            <h3 class="tagline mb-3">Región Metropolitana</h3>
+            <div class="d-flex align-items-center gap-2 icon-text">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Santiago, Chile</p>
+            </div> 
+          </div>
+          <!-- Second Row - Col 4-->
+          <div class="footer-col">
+            <h3 class="tagline mb-3">Región de Valparaíso</h3>
+            <div class="d-flex align-items-center gap-2 icon-text">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Viña del Mar, Chile</p>
+            </div>    
+          </div>
+        </div>
+      
+        <!-- Third Row -->
+        <div class="footer-bottom">
+          <!-- Thrid Row - Col 1-->
+          <div class="footer-copyright">
+            <p class="mb-1 mb-md-0">© Copyright 2025 Montec. Todos los derechos reservados.</p>
+            <p>Website by <a href="https://www.smokstudio.com" target="_blank">Barb Smok</a></p>
+          </div>
+          <!-- Thrid Row - Col 2-->
+          <div class="footer-arrow">
+            <a class="back-to-top" href="#top" title="Volver arriba">
+              <img src="assets/imgs/icons/top-arrow.svg" width="35" alt="Back to Top" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contador.js"></script>
+  </body>
+</html>
