@@ -596,7 +596,9 @@ HERO
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  background: red; /* temporalmente, para ver si el video se carga o no */
+  background: var(
+    --background-dark
+  ); /* temporalmente, para ver si el video se carga o no */
 }
 
 /* Hero Section */
