@@ -93,43 +93,16 @@
     </section>
 
     <!-- INTRO -->
-    <section
-      id="intro-section"
-      class="intro-section intro-section-transparent"
-      style="background-color: var(--background-color)"
-    >
+
+    <section id="mapa-section" class="mapa-section">
       <div class="container position-relative">
-        <div class="row g-md-5 g-sm-3 g-lg-5">
-          <!-- Left Column: Text -->
-          <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-2">
             <div class="box-block box-block-top">
               <h3>Construyendo el futuro con innovación y experiencia</h3>
             </div>
           </div>
-          <!-- Right Column: Text -->
-          <div class="col-md-8">
-            <p>
-              En MONTEC, convertimos desafíos en soluciones innovadoras con
-              ingeniería y tecnología de alto nivel para optimizar procesos
-              industriales. Nos enfocamos en calidad, eficiencia y compromiso,
-              garantizando resultados que impulsen la competitividad de nuestros
-              clientes. Hemos trabajado con empresas líderes como
-              <b>Codelco, Esval, Aes Gener, Gasmar, Oxiquim y Enap,</b>
-              desarrollando soluciones a medida, desde modernización de sistemas
-              hasta implementación de nuevas tecnologías.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- MAP -->
-    <section id="mapa-section" class="mapa-section">
-      <div class="container">
-        <!-- map -->
-        <div class="row d-flex justify-content-around">
-          <!-- Right Column: Image Grid -->
-          <div class="col-md-4 map">
+          <div class="col-md-3">
             <div id="map-container">
               <?xml version="1.0" encoding="UTF-8"?>
               <svg
@@ -423,16 +396,31 @@
                   data-projects="30"
                 />
               </svg>
+              <!-- Tooltip container (only one) -->
+              <div id="tooltip" class="tooltip"></div>
             </div>
-            <!-- Tooltip container (only one) -->
-            <div id="tooltip" class="tooltip"></div>
           </div>
-          <div class="col-md-8 map-text-content">
-            <h2 class="mb-2 tagline text-left">Nuestros Proyectos</h2>
-            <h2 class="mb-4 text-left timeline-heading" style="margin-left: 0">
-              Conoce nuestros proyectos a lo largo de Chile
-            </h2>
-            <div class="logo-wrapper logo-wrapper-light mt-5">
+          <div class="col-md-5">
+            <div class="proyectos-content">
+              <h2 class="mb-2 tagline text-left">Nuestros Proyectos</h2>
+              <h2
+                class="mb-4 text-left timeline-heading"
+                style="margin-left: 0; width: 90%"
+              >
+                Conoce nuestros proyectos a lo largo de Chile
+              </h2>
+              <p>
+                En MONTEC, convertimos desafíos en soluciones innovadoras con
+                ingeniería y tecnología de alto nivel para optimizar procesos
+                industriales. Nos enfocamos en calidad, eficiencia y compromiso,
+                garantizando resultados que impulsen la competitividad de
+                nuestros clientes. Hemos trabajado con empresas líderes como
+                <b>Codelco, Esval, Aes Gener, Gasmar, Oxiquim y Enap,</b>
+                desarrollando soluciones a medida, desde modernización de
+                sistemas hasta implementación de nuevas tecnologías.
+              </p>
+            </div>
+            <div class="logo-wrapper logo-wrapper-light mt-3">
               <!-- Loop through 21 logos -->
               <div class="logo-item">
                 <img

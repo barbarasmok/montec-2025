@@ -49,6 +49,11 @@
   --close-position-right: var(--padding-lg);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* ajusta este valor según el alto de tu header */
+}
+
 /* ==========================================================================
 FONT SIZES
 ========================================================================== */
@@ -1529,6 +1534,20 @@ ABOUT BLOCK
   height: 100%;
   border: none;
 }
+.video-wrapper-about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.video-wrapper-about video {
+  position: relative;
+  width: 75%;
+  height: auto;
+  border: none;
+  margin: 0 auto;
+}
 .intro-section-transparent .box-block-top {
   width: 230px;
   z-index: 2;
@@ -2657,11 +2676,21 @@ MAPA BLOCK
 ========================================================================== */
 .mapa-section {
   background-color: var(--background-color);
-  background-image: url('/montec-2025/assets/imgs/mapa-texture.svg');
+  background-image: url('/assets/imgs/mapa-texture.svg');
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
+  background-size: 70%;
+  background-position: bottom left;
   height: auto;
+}
+.mapa-section .row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.mapa-section .box-block-top {
+  left: 0;
 }
 .map-img-grid {
   display: flex;
@@ -2691,7 +2720,7 @@ MAPA BLOCK
 }
 @media (min-width: 992px) {
   #chile-map {
-    width: 45%;
+    width: 85%;
     height: auto;
   }
 }
@@ -2722,6 +2751,7 @@ MAPA BLOCK
 /* Tooltip container styling */
 .tooltip {
   position: absolute;
+  z-index: 9999;
   background-color: var(--background-grey);
   color: var(--text-color);
   padding: 1rem 1.5rem;
@@ -3013,6 +3043,10 @@ CLIENTS BLOCK
 }
 .logo-wrapper-light {
   background-color: var(--background-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0;
 }
 .logo-item {
   display: flex;
@@ -3030,6 +3064,10 @@ CLIENTS BLOCK
   /* Desktop: 7 Columns */
   .logo-item {
     flex: 0 0 calc(100% / 8);
+  }
+  /* Desktop: 7 Columns */
+  .logo-wrapper-light .logo-item {
+    flex: 0 0 calc(100% / 5);
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -3167,10 +3205,12 @@ section.proyecto-3 {
 .mercado-banner {
   margin-top: 160px;
   background-color: var(--background-color);
-  background-image: url('/assets/imgs/home-intro-texture.svg');
+}
+#servicios-section {
+  background-image: url('/assets/imgs/mapa-texture.svg');
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: top right;
+  background-position: bottom left;
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
